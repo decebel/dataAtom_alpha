@@ -5,7 +5,8 @@
 *.exe
 *.dll
 *.lib
-
+*.pak
+*.exp
 
 #pyc stuff
 *.pyc
