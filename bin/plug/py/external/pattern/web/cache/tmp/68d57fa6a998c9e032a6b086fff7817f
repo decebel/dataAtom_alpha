@@ -1,0 +1,529 @@
+﻿{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "nextPage": [
+   {
+    "title": "Google Custom Search - as * as a *",
+    "totalResults": "1780000000",
+    "searchTerms": "as * as a *",
+    "count": 10,
+    "startIndex": 11,
+    "language": "lang_en",
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "000579440470800426354:_4qo2s0ijsi"
+   }
+  ],
+  "request": [
+   {
+    "title": "Google Custom Search - as * as a *",
+    "totalResults": "1780000000",
+    "searchTerms": "as * as a *",
+    "count": 10,
+    "startIndex": 1,
+    "language": "lang_en",
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "000579440470800426354:_4qo2s0ijsi"
+   }
+  ]
+ },
+ "context": {
+  "title": "Pattern"
+ },
+ "searchInformation": {
+  "searchTime": 3.729301,
+  "formattedSearchTime": "3.73",
+  "totalResults": "1780000000",
+  "formattedTotalResults": "1,780,000,000"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "Similes List - English Club",
+   "htmlTitle": "Similes List - English Club",
+   "link": "http://www.englishclub.com/vocabulary/figures-similes-list.htm",
+   "displayLink": "www.englishclub.com",
+   "snippet": "List of AS...AS Similes. This is a list of well-known AS.",
+   "htmlSnippet": "List of AS...AS Similes. This is a list of well-known AS.",
+   "cacheId": "rMFud60Bda8J",
+   "formattedUrl": "www.englishclub.com/vocabulary/figures-similes-list.htm",
+   "htmlFormattedUrl": "www.englishclub.com/vocabulary/figures-similes-list.htm"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Green as a Thistle | making one change every day to greenify my life ...",
+   "htmlTitle": "Green as a Thistle | making one change every day to greenify my life \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://greenasathistle.com/",
+   "displayLink": "greenasathistle.com",
+   "snippet": "smoking his cigarette and generally adhering to every single French/activist   stereotype there is — as well as a lot of people who don't really need to be here, ...",
+   "htmlSnippet": "smoking his cigarette and generally adhering to every single French/activist \u003cbr\u003e  stereotype there is — \u003cb\u003eas well as a lot of people\u003c/b\u003e who don&#39;t really need to be here, \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "qVYpk1KP2jUJ",
+   "formattedUrl": "greenasathistle.com/",
+   "htmlFormattedUrl": "green\u003cb\u003easa\u003c/b\u003ethistle.com/",
+   "pagemap": {
+    "metatags": [
+     {
+      "og:type": "blog",
+      "og:title": "Green as a Thistle",
+      "og:description": "making one change every day to greenify my life (and hopefully not being too smug about it)",
+      "og:url": "http://greenasathistle.com/",
+      "og:site_name": "Green as a Thistle",
+      "twitter:site": "@wordpressdotcom",
+      "application-name": "Green as a Thistle",
+      "msapplication-window": "width=device-width;height=device-height",
+      "msapplication-tooltip": "making one change every day to greenify my life (and hopefully not being too smug about it)",
+      "msapplication-task": "name=Subscribe;action-uri=http://greenasathistle.com/feed/;icon-uri=http://s2.wp.com/i/favicon.ico",
+      "title": "Green as a Thistle on WordPress.com"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "'It's a Bird ... It's a Plane ... It's Superman' - Theater - The New York ...",
+   "htmlTitle": "&#39;It&#39;s a Bird ... It&#39;s a Plane ... It&#39;s Superman&#39; - Theater - The New York \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://theater.nytimes.com/2013/03/22/theater/reviews/its-a-bird-its-a-plane-its-superman-at-city-center.html?pagewanted=all",
+   "displayLink": "theater.nytimes.com",
+   "snippet": "Mar 21, 2013 ... He's the Man of Steel, as Well as a Man of Song. 'It's a Bird ... It's a Plane ... It's   Superman' at City Center. Sara Krulwich/The New York Times ...",
+   "htmlSnippet": "Mar 21, 2013 \u003cb\u003e...\u003c/b\u003e He&#39;s the Man of Steel, \u003cb\u003eas Well as a Man of Song\u003c/b\u003e. &#39;It&#39;s a Bird ... It&#39;s a Plane ... It&#39;s \u003cbr\u003e  Superman&#39; at City Center. Sara Krulwich/The New York Times \u003cb\u003e...\u003c/b\u003e",
+   "formattedUrl": "theater.nytimes.com/.../its-a-bird-its-a-plane-its-superman-at-city-center.html? ...",
+   "htmlFormattedUrl": "theater.nytimes.com/.../its-\u003cb\u003ea\u003c/b\u003e-bird-its-\u003cb\u003ea\u003c/b\u003e-plane-its-superman-at-city-center.html? ...",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://www.nytimes.com/images/2013/03/22/arts/22ITSABIRD1_SPAN/JPITSABIRD1-thumbStandard.jpg",
+      "type": "1",
+      "width": "71",
+      "height": "71"
+     }
+    ],
+    "organization": [
+     {
+      "name": "The New York Times Company",
+      "url": "http://www.nytco.com/",
+      "tickersymbol": "NYSE NYT"
+     }
+    ],
+    "person": [
+     {
+      "name": "BEN BRANTLEY"
+     },
+     {
+      "name": "Strouse, Charles"
+     }
+    ],
+    "hreview": [
+     {
+      "dtreviewed": "2013-03-21",
+      "description": "Two-dimensional isn’t usually an adjective that any self-respecting musical would want attached to its name. But the show that opened at City Center on Wednesday night seems perfectly contented..."
+     }
+    ],
+    "thumbnail": [
+     {
+      "src": "http://www.nytimes.com/images/2013/03/22/arts/22ITSABIRD1_SPAN/JPITSABIRD1-thumbStandard.jpg",
+      "width": "75",
+      "height": "75"
+     }
+    ],
+    "metatags": [
+     {
+      "news_keywords": "It s a Bird ... It s a Plane ...It s Superman (Play),Theater,Encores",
+      "displaydate": "March 21, 2013",
+      "hdl": "‘It’s a Bird ... It’s a Plane ... It’s Superman’ at City Center",
+      "hdl_p": "He’s the Man of Steel, as Well as a Man of Song",
+      "byl": "By BEN BRANTLEY",
+      "lp": "The Encores! concert production of “It’s a Bird ... It’s a Plane ... It’s Superman” is given a pitch-perfect staging by John Rando at City Center.",
+      "cre": "The New York Times",
+      "edt": "NewYork",
+      "pdate": "20130321",
+      "ttl": "It's a Bird ... It's a Plane ...It's Superman (Play)",
+      "des": "Theater",
+      "per": "Strouse, Charles",
+      "slug": "22itsabird",
+      "utime": "20130322172014",
+      "ptime": "20130321165726",
+      "author": "BEN BRANTLEY",
+      "dat": "March 21, 2013",
+      "tom": "Review",
+      "col": "Theater Review",
+      "dsk": "Theater / Theater Reviews",
+      "articleid": "100000002130609",
+      "article_template_version": "700",
+      "hdr_img": "/images/article/header/sect_theater.gif",
+      "thumbnail": "http://www.nytimes.com/images/2013/03/22/arts/22ITSABIRD1_SPAN/JPITSABIRD1-thumbStandard.jpg",
+      "thumbnail_height": "75",
+      "thumbnail_width": "75",
+      "xlarge": "images/2013/03/22/arts/22ITSABIRD1_SPAN/JPITSABIRD1-articleLarge.jpg",
+      "xlarge_height": "430",
+      "xlarge_width": "600",
+      "sectionfront_jsonp": "http://json8.nytimes.com/pages/theater/index.jsonp",
+      "cg": "theater",
+      "scg": "reviews",
+      "pt": "Article",
+      "pst": "Review",
+      "msapplication-starturl": "http://www.nytimes.com/",
+      "og:url": "http://theater.nytimes.com/2013/03/22/theater/reviews/its-a-bird-its-a-plane-its-superman-at-city-center.html?pagewanted=all",
+      "og:type": "article",
+      "og:title": "‘It’s a Bird ... It’s a Plane ... It’s Superman’ at City Center",
+      "og:description": "The Encores! concert production of “It’s a Bird ... It’s a Plane ... It’s Superman” is given a pitch-perfect staging by John Rando at City Center.",
+      "og:image": "http://graphics8.nytimes.com/images/2013/03/22/arts/22ITSABIRD1_SPAN/JPITSABIRD1-superJumbo.jpg",
+      "fb:app_id": "9869919170",
+      "twitter:url": "http://theater.nytimes.com/2013/03/22/theater/reviews/its-a-bird-its-a-plane-its-superman-at-city-center.html?pagewanted=all",
+      "twitter:title": "‘It’s a Bird ... It’s a Plane ... It’s Superman’ at City Center",
+      "twitter:description": "The Encores! concert production of “It’s a Bird ... It’s a Plane ... It’s Superman” is given a pitch-perfect staging by John Rando at City Center.",
+      "twitter:image": "http://graphics8.nytimes.com/images/2013/03/22/arts/22ITSABIRD1_SPAN/JPITSABIRD1-thumbLarge.jpg",
+      "emailthishash": "MXSjV1R3Psds1qeeUtBbjQ"
+     }
+    ],
+    "imageobject": [
+     {
+      "url": "http://graphics8.nytimes.com/images/2013/03/22/arts/22ITSABIRD1_SPAN/JPITSABIRD1-articleLarge.jpg",
+      "identifier": "http://graphics8.nytimes.com/images/2013/03/22/arts/22ITSABIRD1_SPAN/JPITSABIRD1-articleLarge.jpg",
+      "height": "600",
+      "width": "430",
+      "copyrightholder": "Sara Krulwich/The New York Times",
+      "description": "Edward Watts as Superman at City Center."
+     },
+     {
+      "url": "http://graphics8.nytimes.com/images/2013/03/22/arts/22ITSABIRD2/JPITSABIRD2-articleInline.jpg",
+      "identifier": "http://graphics8.nytimes.com/images/2013/03/22/arts/22ITSABIRD2/JPITSABIRD2-articleInline.jpg",
+      "height": "190",
+      "width": "210",
+      "copyrightholder": "Sara Krulwich/The New York Times"
+     }
+    ],
+    "review": [
+     {
+      "inlanguage": "en-US",
+      "description": "The Encores! concert production of “It’s a Bird ... It’s a Plane ... It’s Superman” is given a pitch-perfect staging by John Rando at City Center.",
+      "datemodified": "2013-03-21",
+      "datepublished": "2013-03-21",
+      "alternativeheadline": "He’s the Man of Steel, as Well as a Man of Song",
+      "usageterms": "http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html",
+      "genre": "Review",
+      "articlesection": "Theater / Theater Reviews",
+      "identifier": "100000002130609",
+      "thumbnailurl": "http://www.nytimes.com/images/2013/03/22/arts/22ITSABIRD1_SPAN/JPITSABIRD1-thumbStandard.jpg",
+      "headline": "‘It’s a Bird ... It’s a Plane ... It’s Superman’ at City Center",
+      "copyrightyear": "2013",
+      "reviewbody": "Two-dimensional isn’t usually an adjective that any self-respecting musical would want attached to its name. But the show that opened at City Center on Wednesday night seems perfectly contented...",
+      "printsection": "C",
+      "printpage": "4",
+      "printedition": "New York edition",
+      "newsusagetag": "http://analytics.apnewsregistry.com/analytics/v2/image.svc/TheNewYorkTimes/RWS/nytimes.com/CAI/100000002130609/E/prod/PC/Basic/AT/A"
+     }
+    ],
+    "thing": [
+     {
+      "name": "Theater"
+     },
+     {
+      "name": "Encores! Great American Musicals in Concert (Series)"
+     },
+     {
+      "name": "Superman (Fictional Character)"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Software as a service - Wikipedia, the free encyclopedia",
+   "htmlTitle": "Software as a service - Wikipedia, the free encyclopedia",
+   "link": "http://en.wikipedia.org/wiki/Software_as_a_service",
+   "displayLink": "en.wikipedia.org",
+   "snippet": "DbaaS is regulated by the same principles as Software as a Service (SaaS) and   basically means the delivery of the typical functionalities of a database ...",
+   "htmlSnippet": "DbaaS is regulated by the same principles \u003cb\u003eas Software as a Service (SaaS) and\u003c/b\u003e \u003cbr\u003e  basically means the delivery of the typical functionalities of a database \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "DI1MHH9pJpQJ",
+   "formattedUrl": "en.wikipedia.org/wiki/Software_as_a_service",
+   "htmlFormattedUrl": "en.wikipedia.org/wiki/Software_as_\u003cb\u003ea\u003c/b\u003e_service"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Europe Split Over Austerity as a Path to Growth - NYTimes.com",
+   "htmlTitle": "Europe Split Over Austerity as a Path to Growth - NYTimes.com",
+   "link": "http://www.nytimes.com/2013/04/16/business/global/europe-split-over-austerity-as-a-path-to-growth.html?pagewanted=all",
+   "displayLink": "www.nytimes.com",
+   "snippet": "1 day ago ... Opinion » · Draft: Stupid Writer Tricks. How my obsession with author interviews   resulted in new writing habits, as well as a lot of wasted time.",
+   "htmlSnippet": "1 day ago \u003cb\u003e...\u003c/b\u003e Opinion » &middot; Draft: Stupid Writer Tricks. How my obsession with author interviews \u003cbr\u003e  resulted in new writing habits, \u003cb\u003eas well as a lot of wasted\u003c/b\u003e time.",
+   "formattedUrl": "www.nytimes.com/.../europe-split-over-austerity-as-a-path-to-growth.html?...",
+   "htmlFormattedUrl": "www.nytimes.com/.../europe-split-over-austerity-as-\u003cb\u003ea\u003c/b\u003e-path-to-growth.html?...",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://www.nytimes.com/images/2013/04/16/business/16-jp-FUND/16-jp-FUND-thumbStandard.jpg",
+      "type": "1",
+      "width": "71",
+      "height": "71"
+     }
+    ],
+    "organization": [
+     {
+      "name": "The New York Times Company",
+      "url": "http://www.nytco.com/",
+      "tickersymbol": "NYSE NYT"
+     },
+     {
+      "name": "European Union"
+     },
+     {
+      "name": "World Bank"
+     }
+    ],
+    "person": [
+     {
+      "name": "ANNIE LOWREY"
+     }
+    ],
+    "thumbnail": [
+     {
+      "src": "http://www.nytimes.com/images/2013/04/16/business/16-jp-FUND/16-jp-FUND-thumbStandard.jpg",
+      "width": "75",
+      "height": "75"
+     }
+    ],
+    "newsarticle": [
+     {
+      "inlanguage": "en-US",
+      "description": "Europe is divided over the road to recovery: Is strict belt-tightening or an easing of monetary policy and some stimulus best?",
+      "datemodified": "2013-04-15",
+      "datepublished": "2013-04-15",
+      "alternativeheadline": "Path to Growth Splits Europe, With Austerity A Central Issue",
+      "usageterms": "http://www.nytimes.com/content/help/rights/sale/terms-of-sale.html",
+      "genre": "News",
+      "articlesection": "Business Day / Global Business",
+      "identifier": "100000002173594",
+      "thumbnailurl": "http://www.nytimes.com/images/2013/04/16/business/16-jp-FUND/16-jp-FUND-thumbStandard.jpg",
+      "headline": "Europe Split Over Austerity as a Path to Growth",
+      "copyrightyear": "2013",
+      "articlebody": "WASHINGTON — In the last year, the International Monetary Fund has performed a major reassessment of how it thinks austerity harms a weak, financially troubled economy. But while warning...",
+      "printsection": "B",
+      "printpage": "1",
+      "printedition": "New York edition",
+      "newsusagetag": "http://analytics.apnewsregistry.com/analytics/v2/image.svc/TheNewYorkTimes/RWS/nytimes.com/CAI/100000002173594/E/prod/PC/Basic/AT/A"
+     }
+    ],
+    "metatags": [
+     {
+      "news_keywords": "Euro Crisis,EU,World Bank,IMF,European Central Bank",
+      "displaydate": "April 15, 2013",
+      "hdl": "Europe Split Over Austerity as a Path to Growth",
+      "hdl_p": "Path to Growth Splits Europe, With Austerity A Central Issue",
+      "byl": "By ANNIE LOWREY",
+      "lp": "Europe is divided over the road to recovery: Is strict belt-tightening or an easing of monetary policy and some stimulus best?",
+      "cre": "The New York Times",
+      "edt": "NewYork",
+      "pdate": "20130415",
+      "des": "European Sovereign Debt Crisis (2010- )",
+      "org": "European Union",
+      "slug": "16fund",
+      "utime": "20130416014034",
+      "ptime": "20130415195946",
+      "author": "ANNIE LOWREY",
+      "dat": "April 15, 2013",
+      "tom": "News",
+      "dsk": "Business Day / Global Business",
+      "articleid": "100000002173594",
+      "article_template_version": "700",
+      "hdr_img": "/images/article/header/sect_business.gif",
+      "thumbnail": "http://www.nytimes.com/images/2013/04/16/business/16-jp-FUND/16-jp-FUND-thumbStandard.jpg",
+      "thumbnail_height": "75",
+      "thumbnail_width": "75",
+      "thumbnail_150": "http://www.nytimes.com/images/2013/04/16/business/16-jp-FUND/16-jp-FUND-thumbLarge.jpg",
+      "thumbnail_150_height": "150",
+      "thumbnail_150_width": "150",
+      "sectionfront_jsonp": "http://json8.nytimes.com/pages/business/global/index.jsonp",
+      "cg": "business",
+      "scg": "global",
+      "pt": "Article",
+      "pst": "News",
+      "msapplication-starturl": "http://www.nytimes.com/",
+      "og:url": "http://www.nytimes.com/2013/04/16/business/global/europe-split-over-austerity-as-a-path-to-growth.html?pagewanted=all",
+      "og:type": "article",
+      "og:title": "Europe Split Over Austerity as a Path to Growth",
+      "og:description": "Europe is divided over the road to recovery: Is strict belt-tightening or an easing of monetary policy and some stimulus best?",
+      "og:image": "http://graphics8.nytimes.com/images/2013/04/16/business/16-jp-FUND/16-jp-FUND-superJumbo.jpg",
+      "fb:app_id": "9869919170",
+      "twitter:url": "http://www.nytimes.com/2013/04/16/business/global/europe-split-over-austerity-as-a-path-to-growth.html?pagewanted=all",
+      "twitter:title": "Europe Split Over Austerity as a Path to Growth",
+      "twitter:description": "Europe is divided over the road to recovery: Is strict belt-tightening or an easing of monetary policy and some stimulus best?",
+      "twitter:image": "http://graphics8.nytimes.com/images/2013/04/16/business/16-jp-FUND/16-jp-FUND-thumbLarge.jpg",
+      "emailthishash": "Z8vlo9i3WZLEDxv7qTqfeA"
+     }
+    ],
+    "imageobject": [
+     {
+      "url": "http://graphics8.nytimes.com/images/2013/04/16/business/16-jp-FUND/16-jp-FUND-articleInline.jpg",
+      "identifier": "http://graphics8.nytimes.com/images/2013/04/16/business/16-jp-FUND/16-jp-FUND-articleInline.jpg",
+      "height": "190",
+      "width": "127",
+      "copyrightholder": "Stephen Jaffe/IMF, via Associated Press"
+     }
+    ],
+    "thing": [
+     {
+      "name": "European Sovereign Debt Crisis (2010- )"
+     },
+     {
+      "name": "Economic Conditions and Trends"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Phrases with as ... as - English - Englisch-Hilfen",
+   "htmlTitle": "Phrases with as ... as - English - Englisch-Hilfen",
+   "link": "http://www.englisch-hilfen.de/en/words/phrases_as_as.htm",
+   "displayLink": "www.englisch-hilfen.de",
+   "snippet": "as cold as steel/stone. as cool as a cucumber. as cunning as a fox. as dark as   death. as dead as a dodo/doornail. as deaf as a post. as drunk as a lord. as dry   as ...",
+   "htmlSnippet": "as cold as steel/stone. \u003cb\u003eas cool as a cucumber\u003c/b\u003e. \u003cb\u003eas cunning as a fox\u003c/b\u003e. as dark as \u003cbr\u003e  death. \u003cb\u003eas dead as a dodo/doornail\u003c/b\u003e. \u003cb\u003eas deaf as a post\u003c/b\u003e. \u003cb\u003eas drunk as a lord\u003c/b\u003e. as dry \u003cbr\u003e  as \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "1_2ZM5JadGgJ",
+   "formattedUrl": "www.englisch-hilfen.de/en/words/phrases_as_as.htm",
+   "htmlFormattedUrl": "www.englisch-hilfen.de/en/words/phrases_as_as.htm",
+   "pagemap": {
+    "metatags": [
+     {
+      "content-language": "en"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Similes - The Phrase Finder",
+   "htmlTitle": "Similes - The Phrase Finder",
+   "link": "http://www.phrases.org.uk/meanings/similes.html",
+   "displayLink": "www.phrases.org.uk",
+   "snippet": "Occasionally, the simile just relies on rhyme, for example 'as drunk as a skunk'.   Many also employ alliteration; many animals might be thought of as industrious ...",
+   "htmlSnippet": "Occasionally, the simile just relies on rhyme, for example &#39;\u003cb\u003eas drunk as a skunk&#39;.\u003c/b\u003e \u003cbr\u003e  \u003cb\u003eMany also\u003c/b\u003e employ alliteration; many animals might be thought of as industrious \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "2reXy6c5DUQJ",
+   "formattedUrl": "www.phrases.org.uk/meanings/similes.html",
+   "htmlFormattedUrl": "www.phrases.org.uk/meanings/similes.html",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1",
+      "author": "Phrase Finder is copyright Gary Martin, 1996-2013. All rights reserved."
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "be as dead as a dodo - Idioms - by the Free Dictionary, Thesaurus ...",
+   "htmlTitle": "be \u003cb\u003eas dead as a dodo - Idioms - by\u003c/b\u003e the Free Dictionary, Thesaurus \u003cb\u003e...\u003c/b\u003e",
+   "link": "http://idioms.thefreedictionary.com/be+as+dead+as+a+dodo",
+   "displayLink": "idioms.thefreedictionary.com",
+   "snippet": "Definition of be as dead as a dodo in the Idioms Dictionary. be as dead as a dodo   phrase. What does be as dead as a dodo expression mean? Definitions by the ...",
+   "htmlSnippet": "Definition of be \u003cb\u003eas dead as a dodo\u003c/b\u003e in the Idioms Dictionary. be \u003cb\u003eas dead as a dodo\u003c/b\u003e \u003cbr\u003e  phrase. What does be \u003cb\u003eas dead as a dodo\u003c/b\u003e expression mean? Definitions by the \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "SkWFzJDCrzMJ",
+   "formattedUrl": "idioms.thefreedictionary.com/be+as+dead+as+a+dodo",
+   "htmlFormattedUrl": "idioms.thefreedictionary.com/be+as+dead+as+\u003cb\u003ea\u003c/b\u003e+dodo",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://img.tfd.com/TFDlogo198x65.gif"
+     }
+    ],
+    "metatags": [
+     {
+      "og:url": "http://idioms.thefreedictionary.com/be+as+dead+as+a+dodo",
+      "og:description": "Definition of be as dead as a dodo in the Idioms Dictionary by TheFreeDictionary.com",
+      "og:title": "be as dead as a dodo",
+      "og:image": "http://img.tfd.com/TFDlogo198x65.gif",
+      "og:type": "article",
+      "og:site_name": "TheFreeDictionary.com"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "The Customer as a God: The Future of Shopping - WSJ.com",
+   "htmlTitle": "The Customer as a God: The Future of Shopping - WSJ.com",
+   "link": "http://online.wsj.com/article/SB10000872396390444873204577535352521092154.html",
+   "displayLink": "online.wsj.com",
+   "snippet": "Jul 20, 2012 ... With smartphones, the individual has both computing and networking in a device   as portable as a wallet—but not as personal. Smartphones do ...",
+   "htmlSnippet": "Jul 20, 2012 \u003cb\u003e...\u003c/b\u003e With smartphones, the individual has both computing and networking in a device \u003cbr\u003e  \u003cb\u003eas portable as a wallet—but not\u003c/b\u003e as personal. Smartphones do \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "eRlhUwZK8iUJ",
+   "formattedUrl": "online.wsj.com/.../SB10000872396390444873204577535352521092154. html",
+   "htmlFormattedUrl": "online.wsj.com/.../SB10000872396390444873204577535352521092154. html",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://s.wsj.net/public/resources/images/RV-AH554_SHOPPI_D_20120720002344.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "209",
+      "height": "139",
+      "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTh9YDcLDsL-R7JVTK3ehM9BW95KO8GBx_zwusDw7J8uxrjpalnHYygczs"
+     }
+    ],
+    "metatags": [
+     {
+      "og:url": "http://online.wsj.com/article/SB10000872396390444873204577535352521092154.html",
+      "sitedomain": "online.wsj.com",
+      "primaryproduct": "Online Journal",
+      "ctype": "article",
+      "subsection": "Life and Style",
+      "author": "Doc Searls",
+      "language": "en",
+      "displayname": "The Saturday Essay",
+      "pagename": "The Saturday Essay_SB10000872396390444873204577535352521092154",
+      "news_keywords": "Political/General News, Living/Lifestyle",
+      "og:description": "Businesses today tend to herd customers as if they were cattle, but a revolution in personal empowerment is under way—and buying will never be the same again, writes Doc Searls.",
+      "csource": "WSJ Online",
+      "section": "Article",
+      "og:image": "http://s.wsj.net/public/resources/images/RV-AH554_SHOPPI_D_20120720002344.jpg",
+      "og:title": "The Customer as a God: The Future of Shopping",
+      "apple-itunes-app": "app-id=364387007",
+      "fb:app_id": "368513495882",
+      "og:type": "article",
+      "msapplication-task": "name=SmartMoney;action-uri=http://www.smartmoney.com/;icon-uri=http://www.smartmoney.com/favicon.ico",
+      "fb:page_id": "8304333127",
+      "format-detection": "telephone=no"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "easy as pie - Idioms and phrases - The Free Dictionary",
+   "htmlTitle": "easy as pie - Idioms and phrases - The Free Dictionary",
+   "link": "http://idioms.thefreedictionary.com/easy+as+pie",
+   "displayLink": "idioms.thefreedictionary.com",
+   "snippet": "Usage notes: also used in the forms (as) easy as 1-2-3 or (as) easy as A, B, C (  very easy to understand) and (as) easy as falling off a log (very easy to do) ...",
+   "htmlSnippet": "Usage notes: also used in the forms (as) easy as 1-2-3 or (\u003cb\u003eas) easy as A, B, C (\u003c/b\u003e\u003cbr\u003e  \u003cb\u003every\u003c/b\u003e easy to understand) and (as) easy as falling off a log (very easy to do) \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "YL5rfEnSM_wJ",
+   "formattedUrl": "idioms.thefreedictionary.com/easy+as+pie",
+   "htmlFormattedUrl": "idioms.thefreedictionary.com/easy+as+pie",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://img.tfd.com/TFDlogo198x65.gif"
+     }
+    ],
+    "metatags": [
+     {
+      "og:url": "http://idioms.thefreedictionary.com/easy+as+pie",
+      "og:description": "Definition of easy as pie in the Idioms Dictionary by TheFreeDictionary.com",
+      "og:title": "easy as pie",
+      "og:image": "http://img.tfd.com/TFDlogo198x65.gif",
+      "og:type": "article",
+      "og:site_name": "TheFreeDictionary.com"
+     }
+    ]
+   }
+  }
+ ]
+}
