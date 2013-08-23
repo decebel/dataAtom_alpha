@@ -1,0 +1,230 @@
+
+/// callback extensions manager
+enum EExtensionProvider {
+
+	WINDOW_CALLBACKS_PROVIDER = 0,
+	WEBTEXT_CALLBACKS_PROVIDER = 10,
+	USERDRAW_CALLBACKS_PROVIDER = 20,
+
+};
+
+typedef int Id;
+Id get_next_Id(); // should go into util namespace
+
+class ExtensionsManagerHelper;
+typedef boost::shared_ptr<ExtensionsManagerHelper> SPExtensionsManagerHelper;
+
+struct EventArgs {
+	
+	virtual ~EventArgs() = 0;
+	typedef void (*resultProcessor) (void* request, void* response);
+};
+
+
+typedef boost::shared_ptr<EventArgs> SPEventArgs;
+
+struct TrackableEvent {
+
+	SPEventArgs args;	
+	Id trackingId;
+	bool isPending;
+	std::string status;
+	TrackableEvent() : trackingId(-1), isPending(true), status("") {}
+	TrackableEvent(const SPEventArgs& spArgs_) : args(spArgs_), status("") {}
+
+};
+
+
+class ExtensionsManagerHelper {
+	
+	ExtensionsManagerHelper();
+	ExtensionsManagerHelper(const ExtensionsManagerHelper& );
+	ExtensionsManagerHelper& operator = (const ExtensionsManagerHelper& );
+
+	class impl; 
+
+	
+	public:
+
+	static SPExtensionsManagerHelper getDefault();
+	static SPExtensionsManagerHelper get(const std::string& name = "default");
+
+	///
+	/// \brief Before submitting the request to the provider, one can call track to enable tracking
+	/// The internal thread is keeping track of pending callbacks. When updateTracking is called (see below), 
+	/// with appropriate states, job tracking is completed. The job is removed from the internal queue.
+	///
+	/// return value indicates a successful submission. For example, submitting an already tracked item will return false
+	bool track(TrackableEvent& trackableEvent);
+
+	/// TODO: more documentation with some context
+	/// \brief Internal implementation, after identifying the appropriate event in internl queue, then 
+	/// updating its pending status, the expected behavior is as follows:
+	/// NOTE: updateTracking will return immediately after updating the pending status. 
+	/// The internal thread run method will check the status and execute the response handler
+	/// <code>
+	/// if(!trackableEvent->isPending)
+	///		trackableEvent.args->resultProcessor(trackableEvent.args->request, result)
+	///
+	/// </code>
+	bool updateTracking(TrackableEvent& trackableEvent, void* result);
+
+};
+
+
+
+class ExtensionHandler {
+	
+	protected:
+	
+	virtual void do_executeAsync(const std::string& command, EventArgs& args) = 0;
+
+	void pre_executeAsyn(const std::string& command, EventArgs& args) {
+
+		// generate a request id
+		Id id = get_next_Id();
+		TrackableEvent e(args, id);
+		monitorRequestCompletion(e); 
+			
+	}
+
+	public:
+
+	virtual ~ExtensionHandler() = 0;
+	virtual void execute(const std::string& command, EventArgs& args) = 0;
+
+
+	///
+	/// \brief mandatory impl since we have a defined protocol on how to handle/track/pass results back asynchronously
+	///
+	void executeAsync(const std::string& command, EventArgs& args) {
+		pre_executeAsync(command, args);
+		// TODO: what if we have exceptions, the job should be cleaned up automatically after a few seconds ?
+		do_executeAsync(command, args);
+	}
+
+};
+
+
+typedef boost::shared_ptr<ExtensionHandler> SPExtensionsHandler;
+
+
+class ExtensionHookManager {
+	
+
+	map<EExtensionProvider, SPExtensionsHandler> providers;
+
+	// preCache the default providers 
+	SPExtensionsHandler spDefaultApplicationEvents; // todo
+	SPExtensionsHandler spDefaultTextEvents; // coming from the browser for example
+	SPExtensionsHandler spDefaultDrawEvents; // coming from the user's line draw event
+	SPExtensionsHandler spDefaultDragZoomEvents; // coming from the user's funky stuff
+
+	public: 
+
+	// TODO: factory method for auto-registration
+	
+	void registerProvider(EExtensionProvider c, const SPExtensionsHandler& p);
+	void deregisterProvider(EExtensionProvider c, const SPExtensionsHandler& p);
+	void reRegisterProvider(EExtensionProvider c, const SPExtensionsHandler& p);
+
+
+	void loadFromConfig("config.xml");
+
+	void onAppEvent(const std::string& eventName, EventArgs& args);
+	void onTextEvent(const std::string& eventName, EventArgs& args);
+	void onDrawEvent(const std::string& eventName, EventArgs& args);
+
+
+	void onEvent(const std::string& name, EventArgs& args); // call the appropriate extensionProvider, passing the EventArgs& 
+	args must also contain the source object with an interface to handle the results from the provider.
+
+	/*
+
+		if(args.EventCategory == WebBrowseEvent) {
+
+			 defaultTextEventsHandler.post(name, args);
+
+
+		}
+
+	*/
+
+	/*
+		ExtensionProvider  {
+
+		void execute(EventArgs& arg) {
+
+			// 1. 
+			results = extensionFunction(arg)
+			arg.source.handleResults(arg, results)
+		}
+
+		void executeAsync(EventArgs& arg) {
+
+			// generate a request id
+			id = makeid();
+			arg.id = id;
+
+
+
+			/*
+				This will post to an internal Queue shared by all Providers. 
+				The internal thread will 
+
+
+
+			*/
+			monitorRequestCompletion(arg); 
+
+
+
+			extensionFunctionAsync(arg, provider) // this function should return immediately. When completed, it should call provider.post(result).
+			// the internal thread should get notified that will peek into the queue and try to match the appropriate request. Upon getting the result,
+			// it should then call the handler function with result set
+
+
+		}
+		}
+
+
+
+		}
+
+	*/
+
+
+
+
+
+};
+
+
+// explicit call backs with exact params
+class ExtensionManager2 {
+	
+	public:
+	on_draw_line()
+};
+
+
+
+
+
+// from the client side, I imagine these will be triggered by the events callback 
+class TimeMachine {
+
+	
+
+	public:
+
+
+	//api
+
+	get_
+
+	/*
+		on_command
+	*/
+
+};

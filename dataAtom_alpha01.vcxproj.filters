@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\addons\ofxVectorGraphics\src\ofxVectorGraphics.cpp">
+      <Filter>addons\ofxVectorGraphics\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxVectorGraphics\libs\CreEPS.cpp">
+      <Filter>addons\ofxVectorGraphics\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp">
+      <Filter>addons\ofxXmlSettings\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="main\main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\testApp.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main\scripting\ScriptEngineBridger.cpp">
+      <Filter>main\scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="main\scripting\scriptEngineEvents.cpp">
+      <Filter>main\scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="main\scripting\ScriptEngineMain.cpp">
+      <Filter>main\scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="main\extension\EventsRegistrar.cpp">
+      <Filter>main\extension</Filter>
+    </ClCompile>
+    <ClCompile Include="main\clipBoardWin.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="external\of_addons\ofxConsole\ofxConsoleBase.cpp">
+      <Filter>external\of_addons\ofxConsole</Filter>
+    </ClCompile>
+    <ClCompile Include="main\ui\dashboard\CommanderUI.cpp">
+      <Filter>main\ui\dashboard</Filter>
+    </ClCompile>
+    <ClCompile Include="main\ui\dashboard\ofxWindowConsole.cpp">
+      <Filter>main\ui\dashboard</Filter>
+    </ClCompile>
+    <ClCompile Include="main\ui\dashboard\PluginDashboardUIManager.cpp">
+      <Filter>main\ui\dashboard</Filter>
+    </ClCompile>
+    <ClCompile Include="main\ui\dashboard\WindowConsoleLogger.cpp">
+      <Filter>main\ui\dashboard</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="addons">
+      <UniqueIdentifier>{71834f65-f3a9-211e-73b8-dc8563776aec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxVectorGraphics">
+      <UniqueIdentifier>{5a7f3658-b06b-db97-f4e1-dd1970a8a410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxVectorGraphics\src">
+      <UniqueIdentifier>{f615f000-d48c-b1d6-f1c2-6eddc2810357}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxVectorGraphics\libs">
+      <UniqueIdentifier>{b341f552-35c4-7eb6-b3c9-9d96f0ae1975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings">
+      <UniqueIdentifier>{877f005d-13e6-0592-1d97-f2e39d804d43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings\src">
+      <UniqueIdentifier>{ccb2ac63-49d2-977c-cfe8-aeadb8be6a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings\libs">
+      <UniqueIdentifier>{687714a8-1662-fa1c-261f-50f068335398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external">
+      <UniqueIdentifier>{9c5131b6-679a-4074-9e56-4f214915714d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\of_addons">
+      <UniqueIdentifier>{6db62bf0-9352-4d2f-9d10-97e75c90832f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\jsoncpp">
+      <UniqueIdentifier>{13558476-750b-4bb0-a9cf-ab319276aa51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{96c8faf8-8ac9-4815-a371-14ffd2331f54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\ui">
+      <UniqueIdentifier>{fcd4fb73-c7e3-472e-bdd2-3ecfb6620751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\scripting">
+      <UniqueIdentifier>{64911171-32a3-43b0-b488-85a964b2ec03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\extension">
+      <UniqueIdentifier>{b7aeed67-c28d-484a-8b76-699023d14c3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\of_addons\ofxUI">
+      <UniqueIdentifier>{c903034a-6df9-4640-b4f2-6e6fd12635cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\of_addons\ofxUI\src">
+      <UniqueIdentifier>{c0099a2a-7ccb-41bb-966d-306303aa4960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\ui\dashboard">
+      <UniqueIdentifier>{a6266d50-c48c-4381-a782-ad9e5db7ef21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\of_addons\ofxConsole">
+      <UniqueIdentifier>{22cabcc9-d3fb-4599-b384-dc51cae9d859}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\of_addons\ofxConsole\Preprocessor">
+      <UniqueIdentifier>{d776b76f-6277-477d-a609-648e7bf93c67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\addons\ofxVectorGraphics\src\ofxVectorGraphics.h">
+      <Filter>addons\ofxVectorGraphics\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVectorGraphics\libs\CreEPS.hpp">
+      <Filter>addons\ofxVectorGraphics\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxVectorGraphics\libs\CreEPS_Types.hpp">
+      <Filter>addons\ofxVectorGraphics\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.h">
+      <Filter>addons\ofxXmlSettings\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.h">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="main\testApp.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxTexturedUI.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUI.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUI2DGraph.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUI2DPad.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUIAutoCompletePanel.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUIBaseDraws.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUIBiLabelSlider.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUIButton.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUICanvas.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUICircleSlider.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUICustomImageButton.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUIDropDownList.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUIEventArgs.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUIFPS.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUIFPSSlider.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUIImage.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUIImageButton.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUIImageSampler.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUIImageSlider.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUIImageToggle.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUILabel.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUILabelButton.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUILabelToggle.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUIMinimalSlider.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUIMovingGraph.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUIMultiImageButton.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUIMultiImageSlider.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUIMultiImageToggle.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUINumberDialer.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUIRadio.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUIRangeSlider.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUIRectangle.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUIRotarySlider.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUIScrollableCanvas.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUISlider.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUISpacer.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUISpectrum.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUISuperCanvas.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUITextArea.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUITextInput.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUIToggle.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUIToggleMatrix.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUIValuePlotter.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUIWaveform.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUIWidget.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxUI\src\ofxUIWidgetWithLabel.h">
+      <Filter>external\of_addons\ofxUI\src</Filter>
+    </ClInclude>
+    <ClInclude Include="main\scripting\ScriptEngineBridger.h">
+      <Filter>main\scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="main\scripting\scriptEngineEvents.h">
+      <Filter>main\scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="main\scripting\ScriptEngineMain.h">
+      <Filter>main\scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="main\extension\EventsRegistrar.h">
+      <Filter>main\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="main\clipBoardWin.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxConsole\ofxConsole.h">
+      <Filter>external\of_addons\ofxConsole</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxConsole\ofxConsoleFunctor.h">
+      <Filter>external\of_addons\ofxConsole</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxConsole\ofxConsoleBase.h">
+      <Filter>external\of_addons\ofxConsole</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxConsole\Preprocessor\ofxConsoleFunctorGenerator.h">
+      <Filter>external\of_addons\ofxConsole\Preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="external\of_addons\ofxConsole\Preprocessor\ofxConsoleItemGenerator.h">
+      <Filter>external\of_addons\ofxConsole\Preprocessor</Filter>
+    </ClInclude>
+    <ClInclude Include="main\ui\dashboard\CommanderUI.h">
+      <Filter>main\ui\dashboard</Filter>
+    </ClInclude>
+    <ClInclude Include="main\ui\dashboard\ConsoleLoggingUtil.h">
+      <Filter>main\ui\dashboard</Filter>
+    </ClInclude>
+    <ClInclude Include="main\ui\dashboard\ofxWindowConsole.h">
+      <Filter>main\ui\dashboard</Filter>
+    </ClInclude>
+    <ClInclude Include="main\ui\dashboard\PluginDashboardUIManager.h">
+      <Filter>main\ui\dashboard</Filter>
+    </ClInclude>
+    <ClInclude Include="main\ui\dashboard\WindowConsoleLogger.h">
+      <Filter>main\ui\dashboard</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
