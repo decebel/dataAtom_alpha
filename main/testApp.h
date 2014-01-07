@@ -9,6 +9,8 @@ class ofxUIScrollableCanvas;
 class ofxTexturedUI;
 class ofxConsole;
 
+class stroke;
+
 namespace minto {
 	namespace UI {
 	class PluginDashboardUIManager;
@@ -65,4 +67,7 @@ private:
 	minto::UI::PluginDashboardUIManager* plugUIManager;
 	void setupPlugUIManager();
 	float delayedRun;
+
+	stroke* tlstroke; //timeline stroke
+
 };

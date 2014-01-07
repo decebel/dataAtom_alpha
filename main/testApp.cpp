@@ -6,10 +6,11 @@
 #include "ofxConsole.h"
 #include "ui\dashboard\WindowConsoleLogger.h"
 #include "ui\dashboard\PluginDashboardUIManager.h"
+#include "ui\viz\stroke.h"
 
 using namespace Awesomium;
 
-testApp::testApp() : webCore(0), webView(0), console(0), plugUIManager(0) {}
+testApp::testApp() : webCore(0), webView(0), console(0), plugUIManager(0), tlstroke(0) {}
 
 
 
@@ -65,12 +66,17 @@ void testApp::setup(){
 
 	gabu::log::WindowConsoleLogger::instance().enableAppEvents();
 
-	//ScriptEngineMain::instance().initializeEngine();
 	
-	setupWebEngine();
+	//setupWebEngine(); // Commented for WebView Disabling 
+	setGUI();
 	
 	oldMouseX = mouseX = 0;
 	oldMouseX = mouseY = 0;
+
+	if(!tlstroke) {
+		tlstroke = new stroke();
+		
+	}
 	
 }
 
@@ -123,6 +129,8 @@ void testApp::exit(){
 		delete console;
 	if(plugUIManager)
 		delete plugUIManager;
+	if(tlstroke)
+		delete tlstroke;
 }
 
 void testApp::webUpdate() {
@@ -148,7 +156,7 @@ void testApp::update(){
 		ScriptEngineMain::instance().initializeEngine();
 		once = 1;
 	}
-	webUpdate();
+	//webUpdate(); // Commented webview - 
 
 
 	// delayed loading of plugin check
@@ -160,9 +168,11 @@ void testApp::update(){
 		t = 0;
 		//plugUIManager->onPluginLoaded();
 		once2 = true;
+		}	 
 	}
-	 
-	}
+
+	if(tlstroke)
+		tlstroke->update();
 
 }
 
@@ -191,7 +201,7 @@ void testApp::webEngineDraw() {
 
 void testApp::draw(){
 
-	webEngineDraw();
+	//webEngineDraw(); // commented webview 
 
 	if(trackUserText) {
 		ofSetColor(ofColor::brown);
@@ -206,6 +216,8 @@ void testApp::draw(){
 	ofEnableBlendMode(OF_BLENDMODE_ALPHA); 
 	ofPopStyle();
 
+	if(tlstroke)
+		tlstroke->draw();
 
 
 }
@@ -242,6 +254,10 @@ void testApp::mouseMoved(int x, int y ){
 void testApp::mouseDragged(int x, int y, int button){
 	if(webView)
 		webView->InjectMouseMove(x, y);
+
+	if(tlstroke)
+		tlstroke->originalLine.addVertex(ofPoint(x,y));
+
 }
 
 
@@ -249,6 +265,12 @@ void testApp::mousePressed(int x, int y, int button){
 	if(webView)
 		webView->InjectMouseDown(Awesomium::MouseButton::kMouseButton_Left);
 	trackUserText = true;
+
+	if(tlstroke) {
+		tlstroke->clear();
+		tlstroke->originalLine.addVertex(ofPoint(x,y));
+	}
+
 }
 
 
@@ -260,6 +282,10 @@ void testApp::mouseReleased(int x, int y, int button){
 	_line.clear();
 	std::string data = getClipBoardString();
 	std::cout<<"clipboard has :"<<data<<std::endl;
+
+	if(tlstroke)
+		tlstroke->done();
+
 }
 
 
